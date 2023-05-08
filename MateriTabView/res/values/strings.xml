@@ -4,5 +4,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_main">MateriTabView</string>
+    <string name="title_activity_menghitung_huruf">MenghitungHurufActivity</string>
+    <string name="title_activity_menghitung_kata">Menghitung Kata</string>
 
 </resources>
