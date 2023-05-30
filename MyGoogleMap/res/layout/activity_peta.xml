@@ -3,4 +3,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
+   	<com.google.android.maps.MapView
+		android:id="@+id/peta"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:apiKey="0Ba1o3C9FEqskBBnno33qmdUebQGjVt12dvUQA" />
 </RelativeLayout>

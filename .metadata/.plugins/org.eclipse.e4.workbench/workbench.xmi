@@ -73,7 +73,7 @@
               <children xsi:type="advanced:Placeholder" xmi:id="_R83qQ_eNEe2PZPAeATT7UA" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_NEvDMe20Ee2e_aH5J4s04w"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_R83qRPeNEe2PZPAeATT7UA" elementId="org.eclipse.jdt.ui.PackagesView" toBeRendered="false" ref="_NIF5MO20Ee2e_aH5J4s04w"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_R83qRfeNEe2PZPAeATT7UA" containerData="7500" selectedElement="_R83qRveNEe2PZPAeATT7UA">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_R83qRfeNEe2PZPAeATT7UA" containerData="7500" selectedElement="_R83qS_eNEe2PZPAeATT7UA">
               <children xsi:type="basic:PartSashContainer" xmi:id="_R83qRveNEe2PZPAeATT7UA" containerData="7010" selectedElement="_R83qR_eNEe2PZPAeATT7UA" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_R83qR_eNEe2PZPAeATT7UA" elementId="org.eclipse.ui.editorss" containerData="6992" ref="_NEfLkO20Ee2e_aH5J4s04w"/>
                 <children xsi:type="basic:PartStack" xmi:id="_R83qSPeNEe2PZPAeATT7UA" elementId="topRight" containerData="3008" selectedElement="_R83qSfeNEe2PZPAeATT7UA">
@@ -82,9 +82,8 @@
                   <children xsi:type="advanced:Placeholder" xmi:id="_R83qSveNEe2PZPAeATT7UA" elementId="org.eclipse.mylyn.tasks.ui.views.tasks" ref="_NIL_0O20Ee2e_aH5J4s04w"/>
                 </children>
               </children>
-              <children xsi:type="basic:PartStack" xmi:id="_R83qS_eNEe2PZPAeATT7UA" elementId="bottomRight" visible="false" containerData="2990" selectedElement="_R84RVveNEe2PZPAeATT7UA">
+              <children xsi:type="basic:PartStack" xmi:id="_R83qS_eNEe2PZPAeATT7UA" elementId="bottomRight" containerData="2990" selectedElement="_R84RVveNEe2PZPAeATT7UA">
                 <tags>newtablook</tags>
-                <tags>Minimized</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_R83qTPeNEe2PZPAeATT7UA" elementId="org.eclipse.ui.views.AllMarkersView" ref="_NIGgQO20Ee2e_aH5J4s04w"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_R84RUPeNEe2PZPAeATT7UA" elementId="org.eclipse.ui.views.PropertySheet" ref="_NIHHUO20Ee2e_aH5J4s04w"/>
                 <children xsi:type="advanced:Placeholder" xmi:id="_R84RUfeNEe2PZPAeATT7UA" elementId="org.eclipse.wst.server.ui.ServersView" ref="_NIHuYO20Ee2e_aH5J4s04w"/>
@@ -125,7 +124,7 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_NEfLkO20Ee2e_aH5J4s04w" elementId="org.eclipse.ui.editorss" selectedElement="_NEfLke20Ee2e_aH5J4s04w">
-      <children xsi:type="basic:PartStack" xmi:id="_NEfLke20Ee2e_aH5J4s04w" elementId="PartStack@29bb76" selectedElement="_bY-csP7-Ee2gMOfXxNTRTw">
+      <children xsi:type="basic:PartStack" xmi:id="_NEfLke20Ee2e_aH5J4s04w" elementId="PartStack@29bb76" selectedElement="_-NmJAP88Ee2F28wxdDOZxw">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
@@ -135,12 +134,27 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_6xqowP78Ee2UH7MUWcLGeg" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MainActivity.java" iconURI="platform:/plugin/org.eclipse.jdt.ui//icons/full/obj16/jcu_obj.gif" tooltip="MyGoogleMap/src/com/example/mygooglemap/MainActivity.java" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MyGoogleMap/src/com/example/mygooglemap/MainActivity.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;327&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MyGoogleMap/src/com/example/mygooglemap/MainActivity.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;685&quot; selectionTopPixel=&quot;153&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_bY-csP7-Ee2gMOfXxNTRTw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="activity_peta.xml" iconURI="platform:/plugin/com.android.ide.eclipse.adt/icons/android_file.png" tooltip="MyGoogleMap/res/layout/activity_peta.xml" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MyGoogleMap/res/layout/activity_peta.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_HqS-4P87Ee2F28wxdDOZxw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MyGoogleMap Manifest" iconURI="platform:/plugin/com.android.ide.eclipse.adt/icons/android_file.png" tooltip="MyGoogleMap/AndroidManifest.xml" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.android.ide.eclipse.editors.manifest.ManifestEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MyGoogleMap/AndroidManifest.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_whdwMP88Ee2F28wxdDOZxw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="MainActivity.java" iconURI="platform:/plugin/org.eclipse.jdt.ui//icons/full/obj16/jcu_obj.gif" tooltip="MateriCamera/src/com/example/matericamera/MainActivity.java" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MateriCamera/src/com/example/matericamera/MainActivity.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;29&quot; selectionOffset=&quot;1533&quot; selectionTopPixel=&quot;357&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_-NmJAP88Ee2F28wxdDOZxw" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="PetaActivity.java" iconURI="platform:/plugin/org.eclipse.jdt.ui//icons/full/obj16/jcu_obj.gif" tooltip="MyGoogleMap/src/com/example/mygooglemap/PetaActivity.java" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/MyGoogleMap/src/com/example/mygooglemap/PetaActivity.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;9&quot; selectionOffset=&quot;1981&quot; selectionTopPixel=&quot;1392&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>removeOnHide</tags>
         </children>
@@ -274,8 +288,8 @@
         <tags>TrimStack</tags>
       </children>
     </trimBars>
-    <trimBars xmi:id="_NvQk4O3KEe2e_aH5J4s04w" elementId="org.eclipse.ui.trim.vertical2" side="Right">
-      <children xsi:type="menu:ToolControl" xmi:id="_SVzusPeNEe2PZPAeATT7UA" elementId="bottomRight(org.eclipse.jst.j2ee.J2EEPerspective)" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
+    <trimBars xmi:id="_NvQk4O3KEe2e_aH5J4s04w" elementId="org.eclipse.ui.trim.vertical2" toBeRendered="false" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_SVzusPeNEe2PZPAeATT7UA" elementId="bottomRight(org.eclipse.jst.j2ee.J2EEPerspective)" toBeRendered="false" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.TrimStack">
         <persistedState key="XSize" value="600"/>
         <persistedState key="YSize" value="400"/>
         <tags>TrimStack</tags>

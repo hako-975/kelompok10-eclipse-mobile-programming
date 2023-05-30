@@ -5298,3 +5298,22 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2023-05-30 22:27:02.981
 !MESSAGE Warning: Ignoring name conflict in resource file for name menu_settings
+!SESSION 2023-05-31 05:30:40.163 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-05-31 05:42:57.234
+!MESSAGE activity_peta.xml: Failed to find style 'mapViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-05-31 05:42:57.240
+!MESSAGE activity_peta.xml: Failed to find style 'mapViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-05-31 05:42:57.249
+!MESSAGE activity_peta.xml: Failed to find style 'mapViewStyle' in current theme
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-05-31 05:42:57.256
+!MESSAGE activity_peta.xml: Failed to find style 'mapViewStyle' in current theme
