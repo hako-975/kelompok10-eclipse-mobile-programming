@@ -43,6 +43,19 @@ public class Logika extends Activity {
     	if(inputA>=80) {
     		cetakNilai.setText(""+inputA);
     		cetakLogika.setText("A");
+    	} else if(inputA>=70) {
+    		cetakNilai.setText(""+inputA);
+    		cetakLogika.setText("B");
+    	}  else if(inputA>=60) {
+    		cetakNilai.setText(""+inputA);
+    		cetakLogika.setText("C");
+    	}  else if(inputA>=50) {
+    		cetakNilai.setText(""+inputA);
+    		cetakLogika.setText("D");
+    	}   else {
+    		cetakNilai.setText(""+inputA);
+    		cetakLogika.setText("E");
     	}
+    	
     }
 }
