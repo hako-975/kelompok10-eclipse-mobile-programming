@@ -6798,3 +6798,6 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2023-05-31 06:31:02.450
 !MESSAGE Warning: Ignoring name conflict in resource file for name menu_settings
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-05-31 06:46:10.311
+!MESSAGE Failed to load properties file for project 'Gps'

@@ -40,7 +40,6 @@ public class PetaActivity extends MapActivity {
         final MyLocationOverlay myLocationOverlay = new MyLocationOverlay(this, mapView);
         myLocationOverlay.enableCompass();
         myLocationOverlay.enableMyLocation();
-//        myLocationOverlay.runOnFirstFix(() -> mapController.animateTo(myLocationOverlay.getMyLocation()));
         myLocationOverlay.runOnFirstFix(new Runnable() {
             public void run() {
                 mapController.animateTo(myLocationOverlay.getMyLocation());
