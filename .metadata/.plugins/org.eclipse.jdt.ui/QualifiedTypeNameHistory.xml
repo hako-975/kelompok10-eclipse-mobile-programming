@@ -4,9 +4,9 @@
 <fullyQualifiedTypeName name="android.R"/>
 <fullyQualifiedTypeName name="android.R.layout"/>
 <fullyQualifiedTypeName name="com.example.mygooglemap.R.id"/>
-<fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="android.widget.ListView"/>
 <fullyQualifiedTypeName name="com.google.android.maps.MapView"/>
 <fullyQualifiedTypeName name="android.widget.EditText"/>
 <fullyQualifiedTypeName name="android.widget.Button"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
 </qualifiedTypeNameHistroy>

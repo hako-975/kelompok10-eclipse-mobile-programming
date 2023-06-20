@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/masukan1"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content" >
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/masukan2"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/hitung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="klikHasil"
+            android:text="Hitung" />
+
+        <TextView
+            android:id="@+id/operan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/tambah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="klikTambah"
+                android:text="+" />
+
+            <Button
+                android:id="@+id/kurang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="klikKurang"
+                android:text="-" />
+
+            <Button
+                android:id="@+id/kali"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="klikKali"
+                android:text="x" />
+
+            <Button
+                android:id="@+id/bagi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="klikBagi"
+                android:text=":" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="Hasil Perhitungan"
+                android:textSize="24px" />
+
+            <TextView
+                android:id="@+id/hasil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp"
+                android:text="0"
+                android:textSize="24px" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
