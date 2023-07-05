@@ -1,0 +1,71 @@
+package com.example.materiasyntask;
+
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.TextView;
+import android.widget.Toast;
+
+public class MainActivity extends Activity implements OnClickListener {
+    int nilai;
+    TextView textView;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        textView = (TextView) findViewById(R.id.countTextView);
+        findViewById(R.id.startButton).setOnClickListener(this);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_main, menu);
+        return true;
+    }
+
+    public void onClick(View v) {
+        switch (v.getId()) {
+            case R.id.startButton:
+                MyAsyncTask asyncTask = new MyAsyncTask();
+                asyncTask.execute(10);
+                break;
+        }
+    }
+
+    class MyAsyncTask extends AsyncTask<Integer, Integer, String> {
+        @Override
+        protected void onPreExecute() {
+            Toast.makeText(MainActivity.this, "Mulai", Toast.LENGTH_SHORT).show();
+        }
+
+        @Override
+        protected void onProgressUpdate(Integer... values) {
+            textView.setText(values[0] + "");
+        }
+
+        @Override
+        protected String doInBackground(Integer... params) {
+            nilai = params[0];
+            while (nilai >= 0) {
+                publishProgress(nilai);
+                nilai--;
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+            return "Selesai";
+        }
+
+        @Override
+        protected void onPostExecute(String result) {
+            Toast.makeText(MainActivity.this, result, Toast.LENGTH_SHORT).show();
+        }
+    }
+}
