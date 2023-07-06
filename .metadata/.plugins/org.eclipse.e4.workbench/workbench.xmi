@@ -65,7 +65,7 @@
           <tags>persp.actionSet:org.eclipse.wst.server.ui.internal.webbrowser.actionSet</tags>
           <tags>persp.actionSet:org.eclipse.debug.ui.breakpointActionSet</tags>
           <tags>persp.actionSet:org.eclipse.wst.ws.explorer.explorer</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_fjev0P9iEe25XrNK-pdY3A" selectedElement="_fjfW4P9iEe25XrNK-pdY3A" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_fjev0P9iEe25XrNK-pdY3A" selectedElement="_fjfW5f9iEe25XrNK-pdY3A" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_fjfW4P9iEe25XrNK-pdY3A" elementId="topLeft" containerData="2500" selectedElement="_fjfW4f9iEe25XrNK-pdY3A">
               <tags>newtablook</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_fjfW4f9iEe25XrNK-pdY3A" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_NEr_4O20Ee2e_aH5J4s04w"/>
@@ -125,10 +125,25 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_NEfLkO20Ee2e_aH5J4s04w" elementId="org.eclipse.ui.editorss" selectedElement="_NEfLke20Ee2e_aH5J4s04w">
-      <children xsi:type="basic:PartStack" xmi:id="_NEfLke20Ee2e_aH5J4s04w" elementId="PartStack@51ab7b">
+      <children xsi:type="basic:PartStack" xmi:id="_NEfLke20Ee2e_aH5J4s04w" elementId="PartStack@51ab7b" selectedElement="_SO1fEBufEe63oq8IBWP4ag">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <children xsi:type="basic:Part" xmi:id="_68_JMBueEe63oq8IBWP4ag" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="AndriFirmanSaputra.java" iconURI="platform:/plugin/org.eclipse.jdt.ui//icons/full/obj16/jcu_obj.gif" tooltip="Andri Firman Saputra/src/com/example/andri/firman/saputra/AndriFirmanSaputra.java" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Andri Firman Saputra/src/com/example/andri/firman/saputra/AndriFirmanSaputra.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1061&quot; selectionTopPixel=&quot;32&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_SO1fEBufEe63oq8IBWP4ag" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="activity_andri_firman_saputra.xml" iconURI="platform:/plugin/com.android.ide.eclipse.adt/icons/android_file.png" tooltip="Andri Firman Saputra/res/layout/activity_andri_firman_saputra.xml" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Andri Firman Saputra/res/layout/activity_andri_firman_saputra.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_zZoQABufEe63oq8IBWP4ag" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="Andri Firman Saputra Manifest" iconURI="platform:/plugin/com.android.ide.eclipse.adt/icons/android_file.png" tooltip="Andri Firman Saputra/AndroidManifest.xml" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.android.ide.eclipse.editors.manifest.ManifestEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/Andri Firman Saputra/AndroidManifest.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_NEr_4O20Ee2e_aH5J4s04w" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources//icons/full/eview16/resource_persp.gif" tooltip="Workspace" closeable="true">

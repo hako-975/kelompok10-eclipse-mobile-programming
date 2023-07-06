@@ -1,0 +1,20 @@
+package com.example.andri.firman.saputra;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class AndriFirmanSaputra extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_andri_firman_saputra);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_andri_firman_saputra, menu);
+        return true;
+    }
+}
