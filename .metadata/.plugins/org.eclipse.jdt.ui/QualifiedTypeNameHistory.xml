@@ -9,4 +9,6 @@
 <fullyQualifiedTypeName name="android.widget.Button"/>
 <fullyQualifiedTypeName name="android.widget.TextView"/>
 <fullyQualifiedTypeName name="android.R"/>
+<fullyQualifiedTypeName name="com.example.andri_firman_saputra_sqlite.AndriFirmanSaputraAddSQLiteActivity"/>
+<fullyQualifiedTypeName name="com.example.andri_firman_saputra_model.AndriFirmanSaputraDataHelper"/>
 </qualifiedTypeNameHistroy>

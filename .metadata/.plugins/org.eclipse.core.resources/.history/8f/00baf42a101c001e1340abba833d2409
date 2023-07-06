@@ -1,0 +1,20 @@
+package com.example.andri_firman_saputra_ontouch;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class AndriFirmanSaputraOnTouch extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_andri_firman_saputra_on_touch);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_andri_firman_saputra_on_touch, menu);
+        return true;
+    }
+}

@@ -1,0 +1,20 @@
+package com.example.andri_firman_saputra_sqlite;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class AndriFimanSaputraSQLite extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_andri_fiman_saputra_sqlite);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_andri_fiman_saputra_sqlite, menu);
+        return true;
+    }
+}

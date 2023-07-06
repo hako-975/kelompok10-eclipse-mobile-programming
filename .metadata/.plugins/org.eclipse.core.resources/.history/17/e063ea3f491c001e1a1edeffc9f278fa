@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">Andri Firman Saputra SQLite</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_andri_fiman_saputra_sqlite">Andri Fiman Saputra SQLite</string>
+
+</resources>
