@@ -11,4 +11,7 @@
 <fullyQualifiedTypeName name="android.R"/>
 <fullyQualifiedTypeName name="com.example.andri_firman_saputra_sqlite.AndriFirmanSaputraAddSQLiteActivity"/>
 <fullyQualifiedTypeName name="com.example.andri_firman_saputra_model.AndriFirmanSaputraDataHelper"/>
+<fullyQualifiedTypeName name="android.graphics.Color"/>
+<fullyQualifiedTypeName name="com.example.aldohermawansuryanamodel.DataHelper"/>
+<fullyQualifiedTypeName name="com.example.aldohermawansuryanasqlite.AldoHermawanSuryanaAddSQLiteActivity"/>
 </qualifiedTypeNameHistroy>

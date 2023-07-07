@@ -1,0 +1,27 @@
+package com.example.aldohermawansuryanagrafik;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.Paint;
+import android.view.Menu;
+import android.view.View;
+import android.app.Activity;
+import android.view.Menu;
+
+public class AldoHermawanSuryanaGrafik extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_aldo_hermawan_suryana_grafik);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_aldo_hermawan_suryana_grafik, menu);
+        return true;
+    }
+}

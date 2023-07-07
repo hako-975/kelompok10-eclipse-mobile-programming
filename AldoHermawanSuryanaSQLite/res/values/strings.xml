@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">AldoHermawanSuryanaSQLite</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_aldo_hermawan_suryana_sqlite">Aldo Hermawan Suryana SQLite</string>
+    <string name="title_activity_aldo_hermawan_suryana_add_sqlite">Aldo Hermawan Suryana Add SQLite Activity</string>
+
+</resources>

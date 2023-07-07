@@ -1,0 +1,26 @@
+package com.example.aldohermawansuryanasqlite;
+
+
+import com.example.aldohermawansuryanamodel.DataHelper;
+
+import android.app.Activity;
+import android.database.Cursor;
+import android.os.Bundle;
+import android.view.Menu;
+import android.widget.EditText;
+import android.widget.Toast;
+
+public class AldoHermawanSuryanaAddSQLiteActivity extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_aldo_hermawan_suryana_add_sqlite);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_aldo_hermawan_suryana_add_sqlite, menu);
+        return true;
+    }
+}

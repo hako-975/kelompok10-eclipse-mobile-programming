@@ -1,0 +1,20 @@
+package com.example.aldohermawansuryanaontouch;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class AldoHermawanSuryanaOnTouch extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_aldo_hermawan_suryana_on_touch);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_aldo_hermawan_suryana_on_touch, menu);
+        return true;
+    }
+}
