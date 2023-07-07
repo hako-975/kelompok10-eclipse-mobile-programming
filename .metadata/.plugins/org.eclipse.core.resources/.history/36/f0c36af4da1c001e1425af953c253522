@@ -1,0 +1,20 @@
+package com.example.banimaskurmuhammadalwaladsqlite;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class BaniMaskurMuhammadAlWaladSQLite extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_bani_maskur_muhammad_al_walad_sqlite);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_bani_maskur_muhammad_al_walad_sqlite, menu);
+        return true;
+    }
+}

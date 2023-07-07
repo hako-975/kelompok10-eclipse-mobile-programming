@@ -1,0 +1,13 @@
+package com.example.rahmatprasetyomodel;
+
+public class RahmatPrasetyoDataHelper {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

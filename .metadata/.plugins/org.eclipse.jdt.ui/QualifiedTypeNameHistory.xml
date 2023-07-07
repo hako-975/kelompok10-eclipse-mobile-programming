@@ -20,4 +20,10 @@
 <fullyQualifiedTypeName name="android.graphics.Color"/>
 <fullyQualifiedTypeName name="com.example.aliviasabrinasqlite.AliviaSabrinaAddSQLite"/>
 <fullyQualifiedTypeName name="com.example.aliviasabrinamodel.AliviaSabrinaDataHelper"/>
+<fullyQualifiedTypeName name="com.example.banimaskurmuhammadalwaladontouch.BaniMaskurMuhammadAlWaladTempatGambar"/>
+<fullyQualifiedTypeName name="com.example.banimaskurmuhammadalwaladsqlite.BaniMaskurMuhammadAlWaladAddSQLite"/>
+<fullyQualifiedTypeName name="com.example.banimaskurmuhammadalwaladmodel.BaniMaskurMuhammadAlWaladDataHelper"/>
+<fullyQualifiedTypeName name="com.example.rahmatprasetyoontouch.RahmatPrasetyoTempatGambar"/>
+<fullyQualifiedTypeName name="com.example.rahmatprasetyosqlite.RahmatPrasetyoAddSQLite"/>
+<fullyQualifiedTypeName name="com.example.rahmatprasetyomodel.RahmatPrasetyoDataHelper"/>
 </qualifiedTypeNameHistroy>

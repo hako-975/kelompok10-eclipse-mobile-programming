@@ -66,14 +66,14 @@
           <tags>persp.actionSet:org.eclipse.debug.ui.breakpointActionSet</tags>
           <tags>persp.actionSet:org.eclipse.wst.ws.explorer.explorer</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_R2tRQBzDEe6X1PGho6r-tA" selectedElement="_R2t4UBzDEe6X1PGho6r-tA" horizontal="true">
-            <children xsi:type="basic:PartStack" xmi:id="_R2t4UBzDEe6X1PGho6r-tA" elementId="topLeft" containerData="2500" selectedElement="_R2ufYBzDEe6X1PGho6r-tA">
+            <children xsi:type="basic:PartStack" xmi:id="_R2t4UBzDEe6X1PGho6r-tA" elementId="topLeft" containerData="2476" selectedElement="_R2ufYBzDEe6X1PGho6r-tA">
               <tags>newtablook</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_R2ufYBzDEe6X1PGho6r-tA" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_NEr_4O20Ee2e_aH5J4s04w"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_R2ufYRzDEe6X1PGho6r-tA" elementId="org.eclipse.ui.views.ResourceNavigator" toBeRendered="false" ref="_NEvDMO20Ee2e_aH5J4s04w"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_R2ufYhzDEe6X1PGho6r-tA" elementId="org.eclipse.jdt.ui.TypeHierarchy" toBeRendered="false" ref="_NEvDMe20Ee2e_aH5J4s04w"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_R2ufYxzDEe6X1PGho6r-tA" elementId="org.eclipse.jdt.ui.PackagesView" toBeRendered="false" ref="_NIF5MO20Ee2e_aH5J4s04w"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_R2ufZBzDEe6X1PGho6r-tA" containerData="7500" selectedElement="_R2ufZRzDEe6X1PGho6r-tA">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_R2ufZBzDEe6X1PGho6r-tA" containerData="7524" selectedElement="_R2ufZRzDEe6X1PGho6r-tA">
               <children xsi:type="basic:PartSashContainer" xmi:id="_R2ufZRzDEe6X1PGho6r-tA" containerData="7000" selectedElement="_R2ufZhzDEe6X1PGho6r-tA" horizontal="true">
                 <children xsi:type="advanced:Placeholder" xmi:id="_R2ufZhzDEe6X1PGho6r-tA" elementId="org.eclipse.ui.editorss" containerData="7000" ref="_NEfLkO20Ee2e_aH5J4s04w"/>
                 <children xsi:type="basic:PartStack" xmi:id="_R2ufZxzDEe6X1PGho6r-tA" elementId="topRight" containerData="3000" selectedElement="_R2ufaBzDEe6X1PGho6r-tA">
@@ -125,10 +125,35 @@
       <tags>categoryTag:Help</tags>
     </sharedElements>
     <sharedElements xsi:type="advanced:Area" xmi:id="_NEfLkO20Ee2e_aH5J4s04w" elementId="org.eclipse.ui.editorss" selectedElement="_NEfLke20Ee2e_aH5J4s04w">
-      <children xsi:type="basic:PartStack" xmi:id="_NEfLke20Ee2e_aH5J4s04w" elementId="PartStack@cf8b94">
+      <children xsi:type="basic:PartStack" xmi:id="_NEfLke20Ee2e_aH5J4s04w" elementId="PartStack@cf8b94" selectedElement="_flVo0BzhEe60XMcB1QNOxA">
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
+        <children xsi:type="basic:Part" xmi:id="_P17mIBzgEe60XMcB1QNOxA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="activity_rahmat_prasetyo_sqlite.xml" iconURI="platform:/plugin/com.android.ide.eclipse.adt/icons/android_file.png" tooltip="RahmatPrasetyoSQLite/res/layout/activity_rahmat_prasetyo_sqlite.xml" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RahmatPrasetyoSQLite/res/layout/activity_rahmat_prasetyo_sqlite.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_ih3g0BzgEe60XMcB1QNOxA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="activity_rahmat_prasetyo_add_sqlite.xml" iconURI="platform:/plugin/com.android.ide.eclipse.adt/icons/android_file.png" tooltip="RahmatPrasetyoSQLite/res/layout/activity_rahmat_prasetyo_add_sqlite.xml" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;com.android.ide.eclipse.editors.CommonXmlEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RahmatPrasetyoSQLite/res/layout/activity_rahmat_prasetyo_add_sqlite.xml&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_9IcW0BzgEe60XMcB1QNOxA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RahmatPrasetyoDataHelper.java" iconURI="platform:/plugin/org.eclipse.jdt.ui//icons/full/obj16/jcu_obj.gif" tooltip="RahmatPrasetyoSQLite/src/com/example/rahmatprasetyomodel/RahmatPrasetyoDataHelper.java" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RahmatPrasetyoSQLite/src/com/example/rahmatprasetyomodel/RahmatPrasetyoDataHelper.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;361&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_Hw6xYBzhEe60XMcB1QNOxA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RahmatPrasetyoSQLite.java" iconURI="platform:/plugin/org.eclipse.jdt.ui//icons/full/obj16/jcu_obj.gif" tooltip="RahmatPrasetyoSQLite/src/com/example/rahmatprasetyosqlite/RahmatPrasetyoSQLite.java" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RahmatPrasetyoSQLite/src/com/example/rahmatprasetyosqlite/RahmatPrasetyoSQLite.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;707&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
+        <children xsi:type="basic:Part" xmi:id="_flVo0BzhEe60XMcB1QNOxA" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="RahmatPrasetyoAddSQLite.java" iconURI="platform:/plugin/org.eclipse.jdt.ui//icons/full/obj16/jcu_obj.gif" tooltip="RahmatPrasetyoSQLite/src/com/example/rahmatprasetyosqlite/RahmatPrasetyoAddSQLite.java" closeable="true">
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/RahmatPrasetyoSQLite/src/com/example/rahmatprasetyosqlite/RahmatPrasetyoAddSQLite.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;320&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <tags>Editor</tags>
+          <tags>removeOnHide</tags>
+        </children>
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_NEr_4O20Ee2e_aH5J4s04w" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources//icons/full/eview16/resource_persp.gif" tooltip="Workspace" closeable="true">
@@ -153,7 +178,7 @@
       <tags>View</tags>
       <tags>categoryTag:Java Browsing</tags>
     </sharedElements>
-    <sharedElements xsi:type="basic:Part" xmi:id="_NIGgQO20Ee2e_aH5J4s04w" elementId="org.eclipse.ui.views.AllMarkersView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Markers" iconURI="platform:/plugin/org.eclipse.ui.ide//icons/full/eview16/problems_view.gif" tooltip="0 errors, 171 warnings, 17 others (Filter matched 165 of 188 items)" closeable="true">
+    <sharedElements xsi:type="basic:Part" xmi:id="_NIGgQO20Ee2e_aH5J4s04w" elementId="org.eclipse.ui.views.AllMarkersView" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Markers" iconURI="platform:/plugin/org.eclipse.ui.ide//icons/full/eview16/problems_view.gif" tooltip="0 errors, 201 warnings, 21 others (Filter matched 185 of 222 items)" closeable="true">
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view PRIMARY_SORT_FIELD=&quot;org.eclipse.ui.ide.allSeverityField&quot; categoryGroup=&quot;org.eclipse.ui.ide.type&quot; markerContentGenerator=&quot;org.eclipse.ui.ide.allMarkersGenerator&quot; partName=&quot;Markers&quot;>&#xD;&#xA;&lt;columnWidths org.eclipse.ui.ide.allSeverityField=&quot;300&quot; org.eclipse.ui.ide.locationField=&quot;90&quot; org.eclipse.ui.ide.markerType=&quot;90&quot; org.eclipse.ui.ide.pathField=&quot;120&quot; org.eclipse.ui.ide.resourceField=&quot;90&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.allSeverityField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.resourceField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.pathField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.locationField&quot;/>&#xD;&#xA;&lt;visible IMemento.internal.id=&quot;org.eclipse.ui.ide.markerType&quot;/>&#xD;&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>

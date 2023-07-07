@@ -1,0 +1,20 @@
+package com.example.banimaskurmuhammadalwaladgrafik;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class BaniMaskurMuhammadAlWaladGrafik extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_bani_maskur_muhammad_al_walad_grafik);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_bani_maskur_muhammad_al_walad_grafik, menu);
+        return true;
+    }
+}

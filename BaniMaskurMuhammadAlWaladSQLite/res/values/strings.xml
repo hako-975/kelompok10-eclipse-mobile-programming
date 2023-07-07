@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">BaniMaskurMuhammadAlWaladSQLite</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_bani_maskur_muhammad_al_walad_sqlite">Bani Maskur Muhammad Al Walad SQLite</string>
+    <string name="title_activity_bani_maskur_muhammad_al_walad_add_sqlite">Bani Maskur Muhammad Al Walad Add SQLite</string>
+
+</resources>
