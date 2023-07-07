@@ -1,0 +1,20 @@
+package com.example.tifannypatrianeandarisqlite;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class TifannyPatrianeAndariSQLite extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_tifanny_patriane_andari_sqlite);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_tifanny_patriane_andari_sqlite, menu);
+        return true;
+    }
+}

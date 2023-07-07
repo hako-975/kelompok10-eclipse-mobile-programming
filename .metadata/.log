@@ -7903,3 +7903,25 @@ Binding(ALT+SHIFT+ARROW_LEFT,
 
 !ENTRY com.android.ide.eclipse.adt 4 0 2023-07-07 06:43:07.571
 !MESSAGE Warning: Ignoring name conflict in resource file for name menu_settings
+!SESSION 2023-07-07 13:28:52.899 -----------------------------------------------
+eclipse.buildId=I20120608-1400
+java.version=1.7.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-07-07 13:37:42.032
+!MESSAGE Failed to load properties file for project 'TifannyPatrianeAndariGrafik'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-07-07 13:52:09.038
+!MESSAGE Failed to load properties file for project 'TifannyPatrianeAndariOnTouch'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-07-07 14:16:33.738
+!MESSAGE Failed to load properties file for project 'TifannyPatrianeAndariSQLite'
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-07-07 14:21:16.267
+!MESSAGE Warning: Ignoring name conflict in resource file for name hello_world
+
+!ENTRY com.android.ide.eclipse.adt 4 0 2023-07-07 14:21:16.269
+!MESSAGE Warning: Ignoring name conflict in resource file for name menu_settings

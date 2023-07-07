@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">TifannyPatrianeAndariSQLite</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_tifanny_patriane_andari_sqlite">Tifanny Patriane Andari SQLite</string>
+
+</resources>
