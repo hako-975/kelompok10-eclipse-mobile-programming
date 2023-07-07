@@ -11,7 +11,13 @@
 <fullyQualifiedTypeName name="android.R"/>
 <fullyQualifiedTypeName name="com.example.andri_firman_saputra_sqlite.AndriFirmanSaputraAddSQLiteActivity"/>
 <fullyQualifiedTypeName name="com.example.andri_firman_saputra_model.AndriFirmanSaputraDataHelper"/>
-<fullyQualifiedTypeName name="android.graphics.Color"/>
 <fullyQualifiedTypeName name="com.example.aldohermawansuryanamodel.DataHelper"/>
 <fullyQualifiedTypeName name="com.example.aldohermawansuryanasqlite.AldoHermawanSuryanaAddSQLiteActivity"/>
+<fullyQualifiedTypeName name="com.example.tifannypatrianeandarisqlite.TifannyPatrianeAndariAddSQLite"/>
+<fullyQualifiedTypeName name="com.example.tifannypatrianeandarimodel.TifannyPatrianeAndariDataHelper"/>
+<fullyQualifiedTypeName name="com.example.amandadwicahyaniputrisqlite.AmandaDwiCahyaniPutriAddSQLite"/>
+<fullyQualifiedTypeName name="com.example.amandadwicahyaniputrimodel.AmandaDwiCahyaniPutriDataHelper"/>
+<fullyQualifiedTypeName name="android.graphics.Color"/>
+<fullyQualifiedTypeName name="com.example.aliviasabrinasqlite.AliviaSabrinaAddSQLite"/>
+<fullyQualifiedTypeName name="com.example.aliviasabrinamodel.AliviaSabrinaDataHelper"/>
 </qualifiedTypeNameHistroy>

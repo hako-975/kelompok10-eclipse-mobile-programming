@@ -1,0 +1,20 @@
+package com.example.amandadwicahyaniputrisqlite;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class AmandaDwiCahyaniPutriSQLite extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_amanda_dwi_cahyani_putri_sqlite);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_amanda_dwi_cahyani_putri_sqlite, menu);
+        return true;
+    }
+}

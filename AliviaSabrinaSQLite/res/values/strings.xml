@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">AliviaSabrinaSQLite</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_alivia_sabrina_sqlite">Alivia Sabrina SQLite</string>
+    <string name="title_activity_alivia_sabrina_add_sqlite">Alivia Sabrina Add SQLite</string>
+
+</resources>

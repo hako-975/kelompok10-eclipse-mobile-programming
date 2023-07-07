@@ -1,0 +1,27 @@
+package com.example.aliviasabrinaontouch;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class AliviaSabrinaOnTouch extends Activity {
+	AliviaSabrinaTempatGambar tempatGambar;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_alivia_sabrina_on_touch);
+
+        tempatGambar = new AliviaSabrinaTempatGambar(this);
+        tempatGambar.setBackgroundColor(Color.WHITE);
+        setContentView(tempatGambar);
+        tempatGambar.requestFocus();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        getMenuInflater().inflate(R.menu.activity_alivia_sabrina_on_touch, menu);
+        return true;
+    }
+}

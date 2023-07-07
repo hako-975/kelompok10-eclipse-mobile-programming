@@ -8,14 +8,14 @@ import android.view.Menu;
 
 public class AndriFirmanSaputraOnTouch extends Activity {
 
-	TempatGambar tempatGambar;
+	AndriFirmanSaputraTempatGambar tempatGambar;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_andri_firman_saputra_on_touch);
 
-        tempatGambar = new TempatGambar(this);
+        tempatGambar = new AndriFirmanSaputraTempatGambar(this);
         tempatGambar.setBackgroundColor(Color.WHITE);
         setContentView(tempatGambar);
         tempatGambar.requestFocus();

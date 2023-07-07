@@ -1,0 +1,20 @@
+package com.example.aliviasabrinagrafik;
+
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class AliviaSabrinaGrafik extends Activity {
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_alivia_sabrina_grafik);
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.activity_alivia_sabrina_grafik, menu);
+        return true;
+    }
+}
